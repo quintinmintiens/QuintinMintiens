@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import './index.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <div id="nuotron">
+  <div class="ellipse"></div>
+  <div class="dot"></div>
+</div><a id="text" href="https://twitter.com/QMintiens" target="_blank">
+  <div class="hover">
+    <div class='text-3xl'>Coming soon</div>
+  </div>
+  <div class="website">Click to follow me on twitter</div>
+  <div class="nuotron">Quintin</div>
+  <div class="agency">Mintiens</div></a>
+  </div>
   );
 }
 
