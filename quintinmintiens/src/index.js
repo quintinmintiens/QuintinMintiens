@@ -1,15 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import Header from './Header';
+import About from './About';
+import AboutMe from './AboutMe';
+import Skills from './Skills';
+import Experience from './Experience';
+
+// Scroll animation
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <About/>
+    <AboutMe/>
+    <Skills/>
+    <Experience/>
   </React.StrictMode>
 );
 
