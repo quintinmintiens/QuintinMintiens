@@ -6,3 +6,11 @@
   opacity: 0;
   transform: translateX(-200px);
 }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}

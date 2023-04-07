@@ -40,6 +40,15 @@ function Skills() {
     { name: "Postgress", level: "65%" },
     { name: "Python", level: "85%" },
     { name: ".NET", level: "80%" },
+    { name: "C#", level: "70%" },
+    { name: "Java", level: "80%" },
+    { name: "Visual Basic", level: "90%" },
+    { name: "Windows Server", level: "60%" },
+    { name: "Linux", level: "75%" },
+  
+
+
+
   ];
 
   return (

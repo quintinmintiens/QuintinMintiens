@@ -9,7 +9,7 @@ import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact';
-import  {ToastProvider } from 'react-hot-toast';
+import Projects from './Projects';
 // Scroll animation
 
 
@@ -23,6 +23,7 @@ root.render(
     <AboutMe/>
     <Skills/>
     <Experience/>
+    <Projects/>
     
     <Contact/>
    
