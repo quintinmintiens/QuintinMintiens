@@ -42,6 +42,9 @@ function Experience() {
               easing: 'easeOutExpo',
               duration: 1000,
               delay: anime.stagger(200, { start: 500 + index * 200 }),
+              complete: () => {
+                observer.unobserve(item); // Remove the observer after the animation is complete
+              }
             });
           }
         });
@@ -52,7 +55,11 @@ function Experience() {
       }
     );
     timelineItems.forEach((item) => observer.observe(item));
+    return () => {
+      observer.disconnect(); // Disconnect the observer when the component unmounts
+    };
   }, []);
+  
 
   return (
     <section id="experience" className="bg-gray-100 py-20">

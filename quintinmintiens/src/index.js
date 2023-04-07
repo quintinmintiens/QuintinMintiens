@@ -8,7 +8,8 @@ import About from './About';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Experience from './Experience';
-
+import Contact from './Contact';
+import  {ToastProvider } from 'react-hot-toast';
 // Scroll animation
 
 
@@ -16,11 +17,15 @@ import Experience from './Experience';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+   
     <Header/>
     <About/>
     <AboutMe/>
     <Skills/>
     <Experience/>
+    
+    <Contact/>
+   
   </React.StrictMode>
 );
 
