@@ -1,13 +1,16 @@
 import "./index.css";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import anime from "animejs";
-import emailjs from "emailjs-com";
-import toast, { ToastContainer } from 'react-hot-toast';
-
+import emailjs from "@emailjs/browser";
+import toast, { ToastContainer } from "react-hot-toast";
 
 function Contact() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const formRef = useRef();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -15,27 +18,34 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm("service_8hcjgvj", "template_h0kmann", e.target, "_peCRG-S1XgJ9cyir")
-      .then((result) => {
-        console.log(result.text);
-        setFormData({ name: "", email: "", message: "" });
-        toast.success("Message sent successfully!", {
-          duration: 5000,
-          type: "success",
-          icon: "🚀",
-        });
-      }, (error) => {
-        console.log(error.text);
-        toast.error("Failed to send message. Please try again later.", {
-          duration: 5000,
-          type: "error",
-          icon: "❌",
-        });
-      });
+    emailjs
+      .sendForm(
+        "service_8hcjgvj",
+        "template_h0kmann",
+        formRef.current,
+        "_peCRG-S1XgJ9cyir"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setFormData({ name: "", email: "", message: "" });
+          toast.success("Message sent successfully!", {
+            duration: 5000,
+            type: "success",
+            icon: "🚀",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error("Failed to send message. Please try again later.", {
+            duration: 5000,
+            type: "error",
+            icon: "❌",
+          });
+        }
+      );
   };
 
-  const formRef = React.createRef();
   const contactRef = React.createRef();
   const formTitleRef = React.createRef();
 
@@ -76,9 +86,12 @@ function Contact() {
           <p className="text-lg text-gray-600">Get in touch with me</p>
         </div>
         <div className="max-w-md mx-auto">
-          <form onSubmit={handleSubmit}>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
+              <label
+                className="block text-gray-700 font-bold mb-2"
+                htmlFor="name"
+              >
                 Name
               </label>
               <input
@@ -93,7 +106,10 @@ function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" htmlFor="email">
+              <label
+                className="block text-gray-700 font-bold mb-2"
+                htmlFor="email"
+              >
                 Email
               </label>
               <input
@@ -108,7 +124,10 @@ function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 font-bold mb-2" htmlFor="message">
+              <label
+                className="block text-gray-700 font-bold mb-2"
+                htmlFor="message"
+              >
                 Message
               </label>
               <textarea
@@ -123,17 +142,17 @@ function Contact() {
               ></textarea>
             </div>
             <div className="flex items-center justify-between">
-            <button
-  className="px-8 py-2 rounded-lg text-white bg-purple-600 hover:bg-purple-700"
-  onClick={handleSubmit}
->
-  Send
-</button>
-
+              <button
+                className="px-8 py-2 rounded-lg text-white bg-purple-600 hover:bg-purple-700"
+                onClick={handleSubmit}
+              >
+                Send
+              </button>
             </div>
           </form>
         </div>
       </div>
     </section>
-  );}
-  export default Contact;
+  );
+}
+export default Contact;
