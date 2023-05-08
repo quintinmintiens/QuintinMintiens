@@ -58,7 +58,8 @@ function AboutMe() {
         </div>
         <div className={`flex justify-center ${isAnimated ? "text-animated" : ""}`}>
           <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline download-button">
-            <a href="my-cv.pdf" download>Download CV</a>
+          <a href={require("./my-cv.pdf")} download>Download CV</a>
+
           </button>
         </div>
       </div>
