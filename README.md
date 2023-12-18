@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on a Data Engineering Project
+- 🔭 I’m currently working on a lot of school projects
 - 📫 How to reach me: quintin.mintiens@student.hogent.be
 
 <!--
