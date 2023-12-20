@@ -45,6 +45,9 @@ function Skills() {
     { name: "Visual Basic", level: "90%" },
     { name: "Windows Server", level: "60%" },
     { name: "Linux", level: "75%" },
+    { name: "Machine Learning", level: "70%" },
+    { name: "Deep Learning", level: "70%" },
+    { name: "Network Engineering", level: "70%" },
   
 
 
