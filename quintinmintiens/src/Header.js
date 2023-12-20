@@ -41,7 +41,7 @@ function Header() {
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-gray-400">
           <a className="mr-5 hover:text-white cursor-pointer" onClick={() => scrollToSection('about')}>About Me</a>
-          <a className="mr-5 hover:text-white cursor-pointer" onClick={() => scrollToSection('projects')}>Projects</a>
+          {/* <a className="mr-5 hover:text-white cursor-pointer" onClick={() => scrollToSection('projects')}>Projects</a> */}
           <a className="mr-5 hover:text-white cursor-pointer" onClick={() => scrollToSection('skills')}>Skills</a>
           <a className="mr-5 hover:text-white cursor-pointer" onClick={() => scrollToSection('contact')}>Contact</a>
         </nav>
