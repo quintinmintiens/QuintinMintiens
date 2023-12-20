@@ -23,7 +23,7 @@ root.render(
     <AboutMe/>
     <Skills/>
     <Experience/>
-    <Projects/>
+    {/* <Projects/> */}
     
     <Contact/>
    
