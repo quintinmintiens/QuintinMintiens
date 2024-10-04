@@ -53,7 +53,7 @@ function AboutMe() {
         <div className="text-center mb-10">
           <img src={require("./ProfilePic.jpg")} alt='Profile Picture' className='profile-pic rounded-full w-15 h-15 mx-auto'/>
           <p className={`text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto my-10 ${isAnimated ? "text-animated" : ""}`}>
-          Hey there, I'm Quintin Mintiens, a 22-year-old student at HOGENT studying computer science. I'm currently specializing in data science and artificial intelligence, and I'm already working as a junior software developer. I'm always hungry for knowledge and eager to learn new skills to stay ahead in the rapidly evolving tech industry. I'm excited to share my journey with you as I continue to grow and make an impact in the world of technology.
+          Hey there, I'm Quintin Mintiens, a 23-year-old with a bachelor's degree in Applied Computer Science: Data Science and AI from HOGENT. With a strong foundation in data science and artificial intelligence, I’m actively working on freelance projects to apply my skills and tackle real-world challenges. Driven by a passion for continuous learning, I’m committed to staying at the forefront of technology and making a meaningful impact in the industry. Excited to share my journey as I keep growing and evolving in the world of tech!
           </p>
         </div>
         <div className={`flex justify-center ${isAnimated ? "text-animated" : ""}`}>

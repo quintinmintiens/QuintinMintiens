@@ -9,18 +9,25 @@ function Experience() {
       title: "Toegepaste Informatica 3e graad",
       institution: "Broederschool Sint Niklaas",
       duration: "2018-2020"
-    },
+    },  
     {
       id: 2,
-      title: "Toegepaste Informatica: Data Science & Artificial Intelligence",
-      institution: "Hogeschool Gent",
-      duration: "September 2020 - Present"
+      title: "Followspot",
+      institution: "Deep Bridge",
+      duration: "2021 - 2023"
     },
     {
       id: 3,
-      title: "Followspot",
-      institution: "Deep Bridge",
-      duration: "2021 - Present"
+      title: "Toegepaste Informatica: Data Science & Artificial Intelligence",
+      institution: "Hogeschool Gent",
+      duration: "September 2020 - June 2024"
+    },
+    {
+      id: 4,
+      title: "Stage",
+      description: "Creating a machine learning model to predict energy consumption in the Hot Strip Mill of ArcelorMittal",
+      institution: "ArcelorMittal",
+      duration: "Feb 2024 - May 2024"
     }
   ];
 

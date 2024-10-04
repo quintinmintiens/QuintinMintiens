@@ -71,18 +71,17 @@ function Projects() {
                     href="https://github.com"
                     className="text-white font-bold text-lg uppercase hover:underline"
                   >
-                    Project Name
+                    Machine Learning Model - ArcelorMittal
                   </a>
                 </div>
               </div>
               <div className="p-4">
                 <p className="text-gray-700 mb-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                This project was undertaken for ArcelorMittal, leveraging advanced data science and AI techniques to drive insights and improvements. Due to the nature of the proprietary data used in this project, as well as ArcelorMittal’s ownership of the resulting model, I am unable to share the actual model or dataset.
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600 text-sm">React, Redux</span>
-                  <span className="text-gray-600 text-sm">Feb 2023</span>
+                  <span className="text-gray-600 text-sm">Python, Data Engineering</span>
+                  <span className="text-gray-600 text-sm">March 2024</span>
                 </div>
               </div>
             </div>

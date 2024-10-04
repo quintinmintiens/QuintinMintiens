@@ -22,7 +22,7 @@ function About() {
           Hi, I'm Quintin Mintiens
         </h1>
         <p className="text-2xl text-gray-800 mb-8 text-animated">
-          Junior Software Developer
+          Junior Software Engineer
         </p>
       </div>
     </div>
