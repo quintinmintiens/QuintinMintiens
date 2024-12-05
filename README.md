@@ -1,19 +1,12 @@
+---
+
 ### Hi there 👋
 
-- 🔭 I’m currently working on a lot of school projects
-- 📫 How to reach me: quintin.mintiens@student.hogent.be
+- 🎓 I recently graduated with a Bachelor's degree in Data Science and Artificial Intelligence  
+- 💼 I’m currently exploring opportunities to apply my skills in data analysis, machine learning, and software development  
+- 🌱 I’m learning and experimenting with new technologies, including cloud computing and big data tools  
+- 💬 Ask me about Data Science, AI, or anything tech-related  
+- 📫 How to reach me: [info@quintinmintiens.be](mailto:info@quintinmintiens.be)  
+- 🏀 Fun fact: When I’m not coding, you can find me playing basketball or watching movies
 
-<!--
-**quintinmintiens/QuintinMintiens** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
