@@ -6,23 +6,27 @@ import anime from "animejs/lib/anime.es.js";
 const skillCategories = [
   {
     name: "Languages",
-    skills: ["Python", "JavaScript", "C#", "Java", "Visual Basic"],
+    skills: ["Python", "TypeScript", "JavaScript", "SQL", "C#", "Java", "Rust"],
+  },
+  {
+    name: "Data Engineering",
+    skills: ["Polars", "Apache Airflow", "Pandas", "PyArrow", "Power BI", "DWH Design"],
+  },
+  {
+    name: "Backend",
+    skills: ["FastAPI", "Pydantic", "SQLAlchemy", "Node.js", ".NET", "PostgreSQL", "MySQL", "MongoDB"],
   },
   {
     name: "Frontend",
-    skills: ["React", "Vue", "HTML", "CSS", "Tailwind CSS"],
+    skills: ["Vue.js", "React", "Next.js", "Vite", "Tailwind CSS"],
   },
   {
-    name: "Backend & Databases",
-    skills: ["Node.js", ".NET", "MySQL", "PostgreSQL", "MongoDB"],
+    name: "AI & ML",
+    skills: ["Machine Learning", "Deep Learning", "OpenAI API", "Pydantic AI", "Ollama", "Sentence Transformers"],
   },
   {
-    name: "Data & AI",
-    skills: ["Machine Learning", "Deep Learning", "Data Engineering", "Data Science"],
-  },
-  {
-    name: "DevOps & Infrastructure",
-    skills: ["Terraform", "Kubernetes", "Linux", "Windows Server", "Infrastructure"],
+    name: "DevOps & Cloud",
+    skills: ["Azure", "Azure DevOps", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "Linux"],
   },
   {
     name: "Networking",
